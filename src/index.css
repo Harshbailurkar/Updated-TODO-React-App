@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  background-color: rgba(54, 56, 74, 1);
+}
+.header {
+  height: 10px;
+}
+.des {
+  background-color: #2c303b;
+  border-radius: 5px;
+}
+.search {
+  margin-top: 5px;
+}
+.title-inp {
+  padding: 3px;
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962b3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+.swal2-modal {
+  background-color: #2c303b;
+  color: #ccc;
+  width: 400px;
+}
+/* .swal2-popup {
+  background-color: #333;
+  color: #fff;
+}
+
+.swal2-title {
+  color: #fff;
+}
+
+.swal2-content {
+  color: #ccc;
+} */
+.mobileview {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .App {
+    display: none;
+  }
+  .mobileview {
+    display: block;
+    width: 80%;
+    margin-top: 50%;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 20%;
+  }
+}
